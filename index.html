@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#workouts">Workouts</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Fitness Hub</h1>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h2>Your Fitness Journey Starts Here</h2>
+            <p>Get fit with our personalized workout plans.</p>
+            <button onclick="showWorkouts()">Explore Workouts</button>
+        </div>
+    </section>
+
+    <section id="workouts">
+        <h2>Workout Plans</h2>
+        <div class="workout-list">
+            <div class="workout">
+                <h3>Beginner</h3>
+                <p>Perfect for those new to fitness.</p>
+                <button onclick="alert('Beginner Plan')">Start</button>
+            </div>
+            <div class="workout">
+                <h3>Intermediate</h3>
+                <p>For those with some experience.</p>
+                <button onclick="alert('Intermediate Plan')">Start</button>
+            </div>
+            <div class="workout">
+                <h3>Advanced</h3>
+                <p>Challenge yourself with advanced routines.</p>
+                <button onclick="alert('Advanced Plan')">Start</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Fitness Hub. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
